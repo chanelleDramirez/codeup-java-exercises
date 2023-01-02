@@ -8,6 +8,12 @@ public class HelloWorld {
         String myString;
         myString = "Happy New Year!";
         System.out.println(myString);
+myString = "C";
+System.out.println(myString);
+myString = "3.14159";
+System.out.println(myString);
+ long myNumber;
+         System.out.println(myNumber);
 
     }
 }
