@@ -64,6 +64,6 @@ public class ConsoleExercises {
 
         System.out.println("You entered: --> \"" + userInput + "\" <--");
 
-
+        // Adding the .nextLine(); will allow all words from the sentence to populate.
     }
 }
