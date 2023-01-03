@@ -52,7 +52,17 @@ public class ConsoleExercises {
 
             System.out.println("You entered: --> \"" + userInput + "\" <--");
         }
-    }
 
-    // When the user types the sentence, the console will only populate the first word.
+search.nextLine();
+        // When the user types the sentence, the console will only populate the first word.
+
+        // Rewrite the above example using the nextLine method.
+
+        System.out.println("Enter a sentence about the Marvel universe: ");
+        String userInput = search.nextLine();
+
+        System.out.println("You entered: --> \"" + userInput + "\" <--");
+
+
+    }
 }
