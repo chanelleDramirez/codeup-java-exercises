@@ -35,7 +35,7 @@ public class ConsoleExercises {
         String userInput2 = scanner.next();
         String userInput3 = scanner.next();
 
-        System.out.println("You entered: --> \"" + userInput1 + userInput2 + userInput3 + "\" <--");
+        System.out.println("You entered: --> \"" + userInput1 + " " +  userInput2 + userInput3 + "\" <--");
 
 
 // if you enter one word/color or more than 3 words/colors the console will not run your code.
@@ -53,12 +53,13 @@ public class ConsoleExercises {
             System.out.println("You entered: --> \"" + userInput + "\" <--");
         }
 
-search.nextLine();
+
         // When the user types the sentence, the console will only populate the first word.
 
         // Rewrite the above example using the nextLine method.
 
         System.out.println("Enter a sentence about the Marvel universe: ");
+        search.nextLine();
         String userInput = search.nextLine();
 
         System.out.println("You entered: --> \"" + userInput + "\" <--");
