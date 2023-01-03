@@ -38,7 +38,7 @@ public class ConsoleExercises {
         System.out.println("You entered: --> \""+ userInput1 +userInput2 + userInput3 +"\" <--");
 
     }
-
+// if you enter one word/color or more than 3 words/colors the console will not run your code.
 
 
     }
