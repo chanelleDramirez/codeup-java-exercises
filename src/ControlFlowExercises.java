@@ -3,20 +3,27 @@ public class ControlFlowExercises {
 
         // Loop Basics
         // A. While
-       // int i = 5;
+        // int i = 5;
         //while (i <= 15) {
-           // System.out.println(i);
-          //  i++;
-      //  }
+        // System.out.println(i);
+        //  i++;
+        //  }
 
+
+        // B
+//        int i = 0;
+//        do {
+//            System.out.println(i);
+//            i+=2;
+//        } while (i <= 100);
+//    }
 
         // B
         int i = 100;
         do {
             System.out.println(i);
-            i-=5;
+            i -= 5;
         } while (i >= -10);
     }
 }
-
 
