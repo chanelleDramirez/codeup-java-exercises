@@ -11,6 +11,7 @@ public class ControlFlowExercises {
 
 
         // B
+        // increments by 2 to 100
 //        int i = 0;
 //        do {
 //            System.out.println(i);
@@ -19,11 +20,22 @@ public class ControlFlowExercises {
 //    }
 
         // B
-        int i = 100;
+        //decrements by 5 to -10
+//        int i = 100;
+//        do {
+//            System.out.println(i);
+//            i -= 5;
+//        } while (i >= -10);
+
+
+        // B
+        long i = 2;
         do {
             System.out.println(i);
-            i -= 5;
-        } while (i >= -10);
+            i = i * i;
+        } while (i <= 1000000);
+
+
     }
 }
 
