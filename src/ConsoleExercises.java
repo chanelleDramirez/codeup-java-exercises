@@ -66,4 +66,21 @@ public class ConsoleExercises {
 
         // Adding the .nextLine(); will allow all words from the sentence to populate.
     }
+
+    // Prompt the user to enter values of length and width of a classroom at Codeup (or your room if virtual).
+    Scanner area = new Scanner(System.in);
+    {
+        System.out.println("Please enter the length of the room ");
+        String length = area.nextLine();
+        System.out.println("You entered: --> \"" + length + "\" <--");
+
+        System.out.println("Please enter the width of the room ");
+        String width = area.nextLine();
+        System.out.println("You entered: --> \"" + width + "\" <--");
+
+        int number  = Integer.parseInt(length);
+        int number2 = Integer.parseInt(width);
+        System.out.println("You entered: --> \"" + length + width + "\" <--");
+
+    }
 }
