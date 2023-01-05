@@ -4,6 +4,7 @@ public class MethodsExercises {
         System.out.println(subtraction(26,13));
         System.out.println(multiplication(7,6));
         System.out.println(division(15,3));
+        System.out.println(modulus(11,3));
     }
     // Create four separate methods. Each will perform an arithmetic operation:
 
@@ -21,5 +22,9 @@ public class MethodsExercises {
 
     public static int division(int e, int b) {
         return e / b;
+    }
+
+    public static int modulus(int k, int n) {
+        return k % n;
     }
 }
