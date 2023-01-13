@@ -1,6 +1,8 @@
 package grades;
 import java.util.ArrayList;
 import java.util.List;
+
+//1.
 public class Student {
     private String name;
     private ArrayList<Integer> grades;
