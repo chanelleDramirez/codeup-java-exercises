@@ -3,8 +3,7 @@ import java.util.Scanner;
 
 public class Input {
 
-
-    Scanner scanner;
+private Scanner scanner;
 
     public Input() {
         scanner = new Scanner(System.in);
